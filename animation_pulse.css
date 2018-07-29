@@ -1,0 +1,14 @@
+.element{
+    width: 200px;
+    height: 200px;
+    animation: pulse 3s infinite alternate;
+}
+
+@keyframes pulse {
+     0% {
+         background-color: blue;
+     }
+     100% {
+         background-color: violet;
+     }
+}

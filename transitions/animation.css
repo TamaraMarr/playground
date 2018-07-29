@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    display: inline-block;
+    background: pink;
+    width: 100px;
+    height: 100vh;
+    animation: myframe 500ms ease-in-out 0s;
+    /* animation-name: myframe;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running; */
+}
+
+.isShown {
+    animation: myframeBackwards 500ms ease-in-out 0s reverse forwards;
+}
+
+@keyframes myframe {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100px;
+    }
+}
+@keyframes myframeBackwards {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100px;
+    }
+}

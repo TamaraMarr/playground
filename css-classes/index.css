@@ -1,0 +1,58 @@
+/*Variable declarations*/
+
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+    --main-color: var(--red);
+}
+
+.grid {
+    --columns: 200px 200px;
+}
+
+/* Styles */
+
+html, body {
+    background: var(--beige);
+    color: var(--red);
+}
+
+#navbar {
+    --red: orange;
+}
+
+h1, p {
+    color: var(--red);
+}
+
+#navbar a {
+    color: var(--main-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: var(--columns);
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    background: var(--yellow);
+}
+
+button {
+    background: var(--red);
+    color: var(--yellow);
+}
+
+@media all and (max-width: 450px) {
+    .grid {
+       --columns: 200px;
+    }
+
+    :root {
+        --beige: #fffeee;
+    }
+}

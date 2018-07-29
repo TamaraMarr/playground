@@ -1,0 +1,32 @@
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.element:hover {
+    animation: skew 3s infinite;
+    animation-direction: alternate;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    transform: skew(20deg);
+}
+
+@keyframes skew {
+    0% {
+        -webkit-transform: skewX(20deg);
+        -moz-transform: skewX(20deg);
+        -o-transform: skewX(20deg);
+        -ms-transform: skewX(20deg);
+        transform: skewX(20deg);
+    }
+    100% {
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);        
+        transform: skewX(-20deg);
+    }
+}

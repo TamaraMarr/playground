@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.trigger {
+    width: 5px;
+    height: 100vh;
+    display: inline-block;
+    background: black;
+    z-index: 999;
+}
+
+.aside {
+    width: 50px;
+    height: 100vh;
+    display: inline-block;
+    background: blue;
+    transition: transform 300ms ease-in-out;
+    pointer-events: none;
+    z-index: 998;
+}
+
+.trigger.clicked .aside {
+    transform: translate(-50px);
+}

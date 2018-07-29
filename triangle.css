@@ -1,0 +1,8 @@
+div {
+    width: 00px;
+    height: 0px;
+    border-top: 0px solid transparent;
+    border-bottom: 250px solid hotpink;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}

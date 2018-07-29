@@ -1,0 +1,21 @@
+{
+    "name": "observables",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "js": "babel ./index.js --out-file ./app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.26.3",
+        "rxjs": "^6.2.2"
+    },
+    "devDependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
+    }
+}

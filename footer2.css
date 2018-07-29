@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main {
+    min-height: calc(100vh - 50px);
+}
+
+.footer {
+    background-color: teal;
+    height: 50px;
+}

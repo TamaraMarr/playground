@@ -1,0 +1,21 @@
+.book-div {
+    background: #B3E5FC;
+    color: white;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.book-div :nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-div :nth-child(3) {
+    font-weight: bold;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+}
