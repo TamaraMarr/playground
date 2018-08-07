@@ -1,0 +1,19 @@
+#main {
+    width: 100vh;
+    height: 200px;
+    border: 1px solid gray;
+    padding: 20px;
+    overflow: auto;
+    padding-right: 50%;
+    position: relative;
+}
+
+.scroll {
+    content: "";
+    width: 5px;
+    background: rgba(128, 128, 128, 0.253);
+    position: absolute;
+    top: 10px;
+    left: 57%;
+    border-radius: 5px;
+}
